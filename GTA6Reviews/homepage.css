@@ -1,0 +1,65 @@
+body {
+	background: linear-gradient(135deg, #0f172a, #2b2b2b);
+	color: #fff;
+}
+.login {
+height: 20px;
+width: 50px;
+background-color: #8C5AA9;
+border-radius: 8px;
+transition: 0.5s ease-in-out;
+}
+.login:hover {
+transform: translateY(-9px);
+}
+#ageInput {
+background-color: grey;
+border-radius: 9px;
+}
+#message {
+background-color: #605895;
+color: white;
+
+}
+        .scrolling-lyrics {
+            font-size: 2em;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 100%;
+            position: relative;
+        }
+
+        .scrolling-lyrics span {
+            display: inline-block;
+            animation: scroll 10s linear infinite;
+        }
+
+        @keyframes scroll {
+            0% { transform: translateX(200%); }
+            100% { transform: translateX(-100%); }
+        }
+	 hr {
+    border: none;
+    height: 2px;
+    background: white; /* Line color */
+    margin: 10px 0;
+  }
+	img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    }
+	.button {
+	
+	font-size: 24px;
+	transition: transform 0.3s ease-in-out;
+	
+}
+	.button:hover {
+	background-color: blue;
+	color: grey;
+	transform: translateY(-20px);
+}
+
+}

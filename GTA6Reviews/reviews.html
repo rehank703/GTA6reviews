@@ -1,0 +1,43 @@
+<html>
+<head>
+	<style>body {
+	background: linear-gradient(135deg, #0f172a, #2b2b2b);
+	color: #fff;
+	font-size: 16px;
+}
+	.submit {
+	font-size: 24px;
+	transition: transform 0.3s ease-in-out;
+}
+	.submit:hover {
+	background-color: blue;
+	color: grey;
+	transform: translateY(-13px);
+
+}
+
+</style>
+</head>
+<body>
+
+<h1>Thankyou for visiting our website<h1>
+<hr>
+
+
+  <label for="author">Your Name:</label>
+  <input type="text" id="author" name="author" required><br>
+<br>
+  <label for="review">Your Review:</label>
+  <textarea id="review" name="review_text" required></textarea><br>
+<br>
+  <label for="rating">Rating (1-10):</label>
+  <input type="number" id="rating" name="rating" min="1" max="10" required><br>
+<br>
+
+<hr>
+
+ <a href="mainpage.html"><button class="submit">Submit reviews</button></a>
+
+
+</body>
+</html>
